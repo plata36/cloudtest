@@ -1,4 +1,4 @@
-FROM maven:3 AS bd
+FROM maven AS bd
 RUN mkdir /code
 WORKDIR /code
 COPY ./ /code
